@@ -1,0 +1,82 @@
+/* Contact Heading */
+.contact-head h3 {
+    color: #085fb1;
+    border-color: #fdd700 !important;
+    font-weight: 900;
+    font-size: 2.5em;
+    font-family: "Mooli", cursive;
+  }
+  
+  .custom-form form {
+    font-family: "Comfortaa", cursive;
+    color: #085fb1;
+    margin: 1em 2em;
+  }
+  
+  .custom-form label {
+    font-weight: 900;
+  }
+  
+  /* Input styling  */
+  form .contact-boxes {
+    border: 0.1em solid #fdd700;
+    border-radius: 0.5em;
+    --bs-focus-ring-color: #eecc248d;
+  }
+  
+  .custom-form textarea {
+    resize: none;
+  }
+  
+  /* side image */
+  .contact-img img {
+    height: 12em;
+    width: 17em;
+    border-radius: 2em;
+  }
+  
+  .custom-form button {
+    background-color: #085fb1;
+    font-weight: 900;
+    color: #f3f3f3;
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+  
+  /* Media Query for the height and width of the image */
+
+  /* For large screens  */
+  @media (min-width: 1500px) {
+    .contact-img img {
+      width: 40em;
+      height: 28em;
+    }
+  
+    .custom-form form {
+      margin-right: 15em;
+    }
+  }
+ 
+  /* For laptops and tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1500px) {
+    .contact-img img {
+      width: 24em;
+      height: 19em;
+    }
+  
+    .custom-form form {
+      margin-right: 4em;
+    }
+  }
+  
+  /* For mobile devices of large screen */
+  @media only screen and (min-width: 570px) and (max-width: 760px) {
+    .contact-img img {
+      width: 27em;
+      height: 22em;
+    }
+  
+    .custom-form form {
+      margin: 1em 4em;
+    }
+  }

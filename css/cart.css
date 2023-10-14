@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* The book image */
+.cart-img img {
+  height: 25em;
+  width: 15em;
+  border-radius: 1em;
+}
+
+/* Input Styling */
+form .cart-input {
+  width: 8rem;
+  border: 0.15em solid #085fb1;
+  border-radius: 0.25em;
+  height: 2em;
+}
+
+/* The headings */
+.container .cart-heading {
+  font-family: "Mooli", cursive;
+  text-align: center;
+  font-weight: 800;
+  color: #085fb1;
+  background-color: #eecc248d;
+  border-radius: 0.25em;
+}
+
+div .cart-icon {
+  background-color: #eecc248d;
+  padding: 0.8em 0.5em;
+  border-radius: 0.25em;
+}
+
+.items .item-section {
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  color: #333333;
+}
+
+.items .bold-text {
+  font-weight: 700;
+}
+
+.items .custom-btn {
+  background-color: #eecc248d;
+  border: none;
+  color: #085fb1;
+  font-weight: 600;
+  border-radius: 0.5em;
+  font-family: "Comfortaa", cursive;
+}
+
+/* Media Query for img Adjustment & Input Box */
+
+/* For large screens */
+@media (min-width: 1500px) {
+  .cart-img img {
+    width: 13vw;
+    height: 27em;
+  }
+}
+
+/* For medium laptop screens */
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  .cart-img img {
+    width: 17.5vw;
+    height: 18em;
+  }
+  form .cart-input {
+    width: 2rem;
+  }
+}
+
+/* For small screens */
+@media only screen and (min-width: 570px) and (max-width: 760px) {
+  .cart-img img {
+    width: 28vw;
+    height: 19em;
+  }
+  form .cart-input {
+    width: 2rem;
+  }
+}

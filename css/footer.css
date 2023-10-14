@@ -1,0 +1,38 @@
+/* Headings */
+.custom-row > h5 {
+    font-weight: bolder;
+    color: #f5d41c;
+    font-family: "Comfortaa", cursive;
+  }
+  
+  .nav-item .custom-footer-link {
+    color: #f5f5f5 !important;
+  }
+  
+  .custom-row p {
+    color: #f5f5f5;
+  }
+  
+  /* Footer section */
+  .custom-footer footer {
+    background-color: #085fb1;
+    font-family: "Mooli", "Comfortaa", cursive;
+  }
+  
+  footer .border-top {
+    border-color: #ffd700;
+  }
+  
+  /* Subscribe button */
+  .custom-row .btn-custom {
+    background-color: #f5d41c;
+    color: #085fb1;
+    font-weight: 600;
+  }
+  
+  .custom-row .btn-custom:hover {
+    background-color: #f5f5f5;
+    transition: 1s;
+    color: #085fb1;
+  }
+  

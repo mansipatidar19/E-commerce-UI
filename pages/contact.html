@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta Tag for SEO -->
+    <meta
+      name="description"
+      content="Share your reads and connect with others who love books. Name, email, and message your favorite reads to the world."
+    />
+    <title>Share your reads</title>
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+
+    <!-- Dynamic Header -->
+    <div id="header"></div>
+
+    <!-- Contact Section -->
+    <div class="container-fluid p-0">
+
+      <!-- Contact Heading -->
+      <div class="contact-head d-flex justify-content-center mt-5">
+        <h3 class="border-bottom pb-2 px-3 mb-0 mb-sm-1">Share Your Reads</h3>
+      </div>
+
+      <!-- Contact Row -->
+      <div class="row gx-0">
+
+        <!-- Image Column -->
+        <div class="col-12 col-sm-12 col-md-6 m-0 px-0">
+          <div
+            class="contact-img d-flex justify-content-center align-items-center my-2 ps-md-4"
+          >
+            <img
+              src="https://media.istockphoto.com/id/1141602094/photo/if-i-could-i-would-read-all-day-everyday.jpg?s=612x612&w=0&k=20&c=iswY1iQXLAdJ0Us6V5Y4eOAa5TJJfh8jqRLa5MxI5Mc="
+              alt=""
+              class="mt-sm-5"
+            />
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="col-12 col-sm-12 col-md-6 m-0 px-0 custom-form">
+          <form
+            action="contact-form"
+            class="d-flex flex-column justify-content-center"
+          >
+            <label for="contact-name" class="mt-4 p-1"
+              ><i class="fa-solid fa-user me-2" style="color: #085fb1"></i
+              >Name:</label
+            >
+            <input
+              type="text"
+              name="customer-name"
+              id="contact-name"
+              placeholder="Enter your name"
+              class="p-1 ps-2 contact-boxes focus-ring"
+              required
+            />
+            <label for="contact-email" class="mt-4 p-1"
+              ><i class="fa-solid fa-at me-2" style="color: #085fb1"></i
+              >E-mail:</label
+            >
+            <input
+              type="e-mail"
+              name="customer-email"
+              id="contact-email"
+              placeholder="Your e-mail"
+              class="p-1 ps-2 contact-boxes focus-ring"
+              required
+            />
+            <label for="contact-message" class="mt-4 p-1"
+              ><i class="fa-solid fa-message me-2" style="color: #085fb1"></i
+              >Message:</label
+            >
+            <textarea
+              name="customer-message"
+              id="contact-message"
+              cols="25"
+              rows="3"
+              placeholder="Your sweet message..."
+              class="p-1 ps-3 pt-2 contact-boxes focus-ring"
+              required
+            ></textarea>
+            <button
+              name="submit-btn"
+              id="contact-submit"
+              class="p-2 contact-boxes"
+            >
+              <i
+                class="fa-brands fa-get-pocket fa-lg me-3"
+                style="color: #f3f3f3"
+              ></i
+              >Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dynamic Footer -->
+    <div id="footer"></div>
+
+    <!-- jQuery with it's code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/load.js"></script>
+    
+  </body>
+</html>

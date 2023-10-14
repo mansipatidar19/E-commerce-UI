@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header font */
+body .header {
+  font-family: "Mooli", "Comfortaa", cursive;
+}
+
+/* First Navbar */
+/* Search field */
+.custom-search-input > input {
+  width: 30vw;
+  border-radius: 0 0 0 10px;
+}
+
+.custom-search-input button {
+  border-radius: 0 10px 0 0;
+  background-color: #f5d41c;
+  border: 0;
+}
+
+.custom-search-input button:hover {
+  background-color: white;
+  transition: 1s;
+}
+
+.custom-search-input button > i {
+  color: #085fb1;
+}
+
+.header .navbar-custom {
+  background-color: #085fb1;
+  color: #f5f5f5;
+}
+
+/* For Logo */
+.navbar-brand > h1,
+i {
+  color: #ffd700;
+}
+
+.navbar-brand > h1 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: 'Satisfy', cursive; 
+  font-size: 25px;
+}
+
+
+.nav-item .login-btn {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+.navbar-brand i:hover {
+  color: #f5f5f5;
+}
+
+.navbar-brand h1:hover {
+  color: #f5f5f5;
+}
+
+/* Custom Toggler */
+.container-fluid .custom-toggler {
+  border: 1px solid #ffd700;
+  border-radius: 0.3em;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 0.4em;
+}
+
+.container-fluid .custom-toggler:focus {
+  box-shadow: 0 0 0 #ffd700;
+}
+
+.nav-item .allHover:hover {
+  color: #f5f5f5;
+}
+
+/* Second Navbar */
+.header .custom-navbar {
+  background-color: #eecc248d;
+  margin: 0;
+}
+
+/* Dropdown styling on second navbar */
+.nav-item .dropdown-icon {
+  color: #085fb1;
+}
+
+.custom-dropdown .dropdown-menu {
+  background-color: #f4d432ce;
+}
+
+.custom-dropdown .dropdown-item {
+  color: #333333;
+  font-weight: 500;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book's World Cart - Checkout Your Books</title>
+    <meta
+      name="description"
+      content="Browse and review items in your cart at Book's World. Checkout your selected books and enjoy great deals."
+    />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="/css/cart.css" />
+  </head>
+  <body>
+    <!-- Dynamic Header -->
+    <div id="header"></div>
+
+    <!-- Cart Container -->
+    <div class="container">
+      <div class="row">
+
+        <!-- First Column -->
+        <div class="col-lg-8 col-12 col-md-8">
+          <h4 class="cart-heading mt-2 mb-3 py-3">Items in cart</h4>
+
+          <div class="row">
+            <div
+              class="col-md-4 col-sm-12 cart-img d-flex justify-content-center"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/71l7mS-TnkL._SY522_.jpg"
+                alt="A Beautiful Mind - Book's World"
+              />
+            </div>
+            <div
+              class="col-md-4 col-12 d-flex justify-content-start align-items-center flex-column mt-4 items"
+            >
+              <p class="item-section">A Beautiful Mind</p>
+              <p class="item-section bold-text">$20</p>
+              <i
+                class="fa-regular fa-trash-can cart-icon fa-lg"
+                style="color: #085fb1"
+              ></i>
+            </div>
+            <div
+              class="col-md-4 col-sm-12 d-flex justify-content-center align-items-start mt-4"
+            >
+              <i
+                class="fa-solid fa-minus me-1 cart-icon fa-lg"
+                style="color: #085fb1"
+              ></i>
+              <form>
+                <input type="number" class="cart-input ps-1" value="1" />
+              </form>
+              <i
+                class="fa-solid fa-plus ms-1 cart-icon fa-lg mb-5"
+                style="color: #085fb1"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="col-lg-4 col-sm-12 col-md-4">
+          <h4 class="cart-heading mt-2 py-3">Summary</h4>
+          <div class="d-flex mx-2 mt-5 items">
+            <span class="item-section">Cost</span>
+            <span class="ms-auto item-section">$20</span>
+          </div>
+          <div class="d-flex mx-2 items">
+            <span class="item-section my-1">Discount</span>
+            <span class="ms-auto item-section my-1">-$5</span>
+          </div>
+          <div class="d-flex border-top m-2 items">
+            <span class="item-section bold-text pt-2">Total</span>
+            <span class="ms-auto item-section bold-text pt-2">$15</span>
+          </div>
+          <div class="mt-4 d-flex justify-content-center items">
+            <button class="custom-btn p-2">
+              <i class="fa-solid fa-book me-1" style="color: #085fb1"></i>Get It
+              Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dynamic Footer -->
+    <div id="footer"></div>
+
+    <!-- jQuery and it's code source -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/load.js"></script>
+  </body>
+</html>

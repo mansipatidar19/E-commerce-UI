@@ -1,0 +1,51 @@
+.banner-book {
+  position: relative;
+}
+
+/* Main Image Styling */
+.banner-img {
+  height: 33em;
+  width: 100%;
+  border-radius: 40px;
+  object-fit: cover;
+  filter: blur(1px);
+}
+
+/* Overlay text */
+.banner-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Text Styling */
+.banner-text h2 {
+  font-family: "Mooli", cursive;
+  font-size: 8.5rem;
+  color: #085fb1;
+  text-shadow: 5px 5px 10px #085fb176;
+}
+
+.banner-text p {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.25em;
+  color: #085fb1;
+}
+
+/* Side images styling */
+.banner-side-img img {
+  border-radius: 40px;
+  height: 15em;
+  filter: blur(0.85px);
+}
+
+/* Font-size adjustments for small screen */
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .banner-text h2 {
+    font-size: 5em;
+  }
+  .banner-text p {
+    font-size: 0.75em;
+  }
+}

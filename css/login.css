@@ -1,0 +1,81 @@
+body .login-form {
+  color: #085fb1;
+  font-family: "Comfortaa", cursive;
+}
+
+/* Form content styles */
+.login-form .form-title {
+  font-weight: 900;
+}
+
+.login-form .form-head {
+  font-weight: 600;
+  border-bottom: 2px solid #ffd700;
+  font-family: "Mooli", cursive;
+}
+
+.login-form .form-boxes {
+  border: 2px solid #085fb1;
+  --bs-focus-ring-color: #085fb14f;
+}
+
+/* Login Button */
+.login-form #login-btn {
+  color: #085fb1;
+  background-color: #eecc248d;
+  margin-top: 2em;
+  font-family: "Mooli", cursive;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.login-form #login-btn:hover {
+  background-color: #ffd900ad;
+  transition: 1s;
+}
+
+/* Modal Styling */
+.modal-content .modal-style {
+  border: none;
+  font-family: "Mooli", cursive;
+}
+
+.modal-dialog .modal-content {
+  background-color: #085fb1;
+  color: #ffd700;
+  box-shadow: 3px 3px 5px #333333;
+  font-family: "Comfortaa", cursive;
+}
+
+.modal-footer button {
+  color: #085fb1;
+  background-color: #ffd700;
+  font-weight: 700;
+}
+
+.modal-footer button:hover {
+  box-shadow: 1px 1px 5px #333333;
+  border: 1.5px solid #fdd700;
+}
+
+.modal-header button {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-header i {
+  opacity:0.7;
+}
+
+.modal-header i:hover {
+  opacity:1;
+}
+
+/* Modal div's hidden */
+.modal-content .incorrect {
+  display: none;
+}
+
+.modal-content .correct {
+  display: none;
+}
